@@ -42,9 +42,9 @@ sudo apt-get install openjdk-8-jdk
 
 sudo hostnamectl set-hostname server1  # you will need to set up a hostname and FQDN to your system. You can do this by running this command 
 
-Next, open /etc/hosts file and add FQDN: 
+###Next, open /etc/hosts file and add FQDN: 
 sudo nano /etc/hosts
-
+```
 Add the following line: 
 ```bash
 127.0.1.1 server1.example.com server1
