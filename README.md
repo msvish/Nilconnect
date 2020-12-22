@@ -94,3 +94,6 @@ https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart
 https://vitux.com/how-to-install-jitsi-meet-video-conference-platform-on-ubuntu/
 
 https://css-tricks.com/building-a-real-time-chat-app-with-react-and-firebase/
+
+#Licence
+[MIT](https://choosealicense.com/licenses/mit/)
