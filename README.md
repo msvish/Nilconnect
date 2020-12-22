@@ -53,7 +53,7 @@ check if it has been implemented successfully
 ```bash
 hostname -f
 ```
-
+if the output is server1.example.com then continue executing with the following commands in the terminal: 
 ```bash
 curl https://download.jitsi.org/jitsi-key.gpg.key | sudo sh -c 'gpg --dearmor > /usr/share/keyrings/jitsi-keyring.gpg'
 
