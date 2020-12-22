@@ -1,6 +1,6 @@
 # Nilconnect is a video conferencing application built in collaboration with NilAdvantage
 
-## The web-app is built with Reactjs, firebase and Jitsi Meets' open sourced tools as the backend code
+### The web-app is built with Reactjs, firebase and Jitsi Meets' open sourced tools as the backend code
 
 execute the following commands in the terminal:
 ```bash
@@ -14,17 +14,18 @@ yarn add react-icons
 
 npm install --save react-google-pay-button /*for adding google pay functionality*/
 ```
-## copy/clone the code into the folder 
+### copy/clone the code into the folder 
 
-## Create a new project in your firebase account, navigate to authentication-> sign-in method and enable sign in with google option
-## Go to the services -> firebase.js file and enter your API key credentials
+### Create a new project in your firebase account, navigate to authentication-> sign-in method and enable sign in with google option
+### Go to the services -> firebase.js file and enter your API key credentials
 
 Execute the following command in the terminal:
+```bash
 cd ~ /* come out of all the directories */
-
-## Now let's install all the Jitsi Meets' packages
+```
+### Now let's install all the Jitsi Meets' packages
 Enter the following commands in the terminal:
-
+```bash
 sudo apt-get install gnupg2
 
 sudo apt-get install nginx-full
@@ -84,7 +85,7 @@ sudo apt install jitsi-meet
 /* You will also be asked to enter the hostname of the Jitsi Meet instance, enter server1.example.com */
 
 /* now change to your nilconnect directory and execute yarn start or npm start */
-
+```
 References:
 
 https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart
