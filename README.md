@@ -4,15 +4,15 @@
 
 execute the following commands in the terminal:
 ```bash
-npx create-react-app nilconnect /*to create a react app (when you create a react app delete the default files except node modules)*/
+npx create-react-app nilconnect  # to create a react app (when you create a react app delete the default files except node modules)
 
 cd nilconnect
 
-yarn add react-router-dom firebase /*for adding react router and firebase*/
+yarn add react-router-dom firebase # for adding react router and firebase
 
 yarn add react-icons 
 
-npm install --save react-google-pay-button /*for adding google pay functionality*/
+npm install --save react-google-pay-button # for adding google pay functionality
 ```
 ### copy/clone the code into the folder 
 
@@ -21,7 +21,7 @@ npm install --save react-google-pay-button /*for adding google pay functionality
 
 Execute the following command in the terminal:
 ```bash
-cd ~ /* come out of all the directories */
+cd ~  # come out of all the directories 
 ```
 ### Now let's install all the Jitsi Meets' packages
 Enter the following commands in the terminal:
@@ -40,29 +40,31 @@ sudo apt update
 
 sudo apt-get install openjdk-8-jdk
 
-sudo hostnamectl set-hostname server1  /* you will need to set up a hostname and FQDN to your system. You can do this by running this command */
+sudo hostnamectl set-hostname server1  # you will need to set up a hostname and FQDN to your system. You can do this by running this command 
 
-/* Next, open /etc/hosts file and add FQDN: */
-
+Next, open /etc/hosts file and add FQDN: 
+```bash
 sudo nano /etc/hosts
-
-/* Add the following line: */
-
+```
+Add the following line: 
+```bash
 127.0.1.1 server1.example.com server1
-
-/* check if it has been implemented successfully */
-
+```
+check if it has been implemented successfully 
+```bash
 hostname -f
+```
 
+```bash
 curl https://download.jitsi.org/jitsi-key.gpg.key | sudo sh -c 'gpg --dearmor > /usr/share/keyrings/jitsi-keyring.gpg'
 
 echo 'deb [signed-by=/usr/share/keyrings/jitsi-keyring.gpg] https://download.jitsi.org stable/' | sudo tee /etc/apt/sources.list.d/jitsi-stable.list > /dev/null
 
-/* update all package sources */
+### update all package sources 
 
 sudo apt update
 
-/* enable firewall and ports */
+### enable firewall and ports 
 
 sudo ufw allow 80/tcp
 
@@ -78,13 +80,13 @@ sudo ufw allow 5349/tcp
 
 sudo ufw enable
 
-sudo ufw status verbose /* check firewall status */
+sudo ufw status verbose # check firewall status 
 
 sudo apt install jitsi-meet
 
-/* You will also be asked to enter the hostname of the Jitsi Meet instance, enter server1.example.com */
+# You will also be asked to enter the hostname of the Jitsi Meet instance, enter server1.example.com 
 
-/* now change to your nilconnect directory and execute yarn start or npm start */
+ now change to your nilconnect directory and execute yarn start or npm start 
 ```
 References:
 
